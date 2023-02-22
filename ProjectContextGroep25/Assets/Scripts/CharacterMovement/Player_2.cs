@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-//Movement voor de tweede speler
+//Movement voor de tweede speler zonder de animator
 public class Player_2 : MonoBehaviour
 {
 
@@ -13,24 +13,24 @@ public class Player_2 : MonoBehaviour
     {
         Vector3 pos = transform.position;
 
-        if (Input.GetKey(KeyCode.UpArrow))
+        if (Input.GetKey(KeyCode.UpArrow)) //boven
         {
             pos.y += moveSpeed * Time.deltaTime;
         }
 
         
-        if (Input.GetKey(KeyCode.DownArrow))
+        if (Input.GetKey(KeyCode.DownArrow)) //onder
         {
             pos.y -= moveSpeed * Time.deltaTime;
         }
 
-        if (Input.GetKey(KeyCode.RightArrow))
+        if (Input.GetKey(KeyCode.RightArrow)) //rechts
         {
             pos.x += moveSpeed * Time.deltaTime;
         }
 
         
-        if (Input.GetKey(KeyCode.LeftArrow))
+        if (Input.GetKey(KeyCode.LeftArrow)) //links
         {
             pos.x -= moveSpeed * Time.deltaTime;
         }

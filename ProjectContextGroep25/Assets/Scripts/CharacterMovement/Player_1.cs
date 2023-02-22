@@ -7,6 +7,7 @@ public class Player_1 : MonoBehaviour
 {
 
     public float moveSpeed = 5f;
+    public Animator animator;
 
     // Update is called once per frame
     void Update()
@@ -35,6 +36,9 @@ public class Player_1 : MonoBehaviour
             pos.x -= moveSpeed * Time.deltaTime;
         }
 
-        transform.position = pos;  
+        transform.position = pos; 
+        // animator.SetFloat("Horizontal",pos.x);
+        // animator.SetFloat("Vertical",pos.y);
+        // animator.SetFloat("Speed", pos.sqrMagnitude);
     }
 } 

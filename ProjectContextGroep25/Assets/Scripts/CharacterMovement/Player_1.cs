@@ -14,31 +14,53 @@ public class Player_1 : MonoBehaviour
     {
         Vector3 pos = transform.position;
 
-        if (Input.GetKey("w"))
+        if (Input.GetKey("w")) //boven
         {
             pos.y += moveSpeed * Time.deltaTime;
-        }
-
-        
-        if (Input.GetKey("s"))
-        {
-            pos.y -= moveSpeed * Time.deltaTime;
-        }
-
-        if (Input.GetKey("d"))
-        {
-            pos.x += moveSpeed * Time.deltaTime;
-        }
-
-        
-        if (Input.GetKey("a"))
-        {
-            pos.x -= moveSpeed * Time.deltaTime;
+            animator.SetFloat("Speed",2);
+            animator.SetFloat("Vertical", 1);
+            animator.SetFloat("Horizontal", 0);
+        } else {
+            animator.SetFloat("Speed", 0);
         }
 
         transform.position = pos; 
-        // animator.SetFloat("Horizontal",pos.x);
-        // animator.SetFloat("Vertical",pos.y);
-        // animator.SetFloat("Speed", pos.sqrMagnitude);
+        
+        if (Input.GetKey("s")) //onder
+        {
+            pos.y -= moveSpeed * Time.deltaTime;
+            animator.SetFloat("Speed",2);
+            animator.SetFloat("Vertical", -1);
+            animator.SetFloat("Horizontal", 0);
+        } else {
+            animator.SetFloat("Speed", 0);
+        }
+
+        transform.position = pos; 
+
+
+        if (Input.GetKey("d")) //rechts
+        {
+            pos.x += moveSpeed * Time.deltaTime;
+            animator.SetFloat("Speed",2);
+            animator.SetFloat("Vertical", 0);
+            animator.SetFloat("Horizontal", 1);
+        } else {
+            animator.SetFloat("Speed", 0);
+        }
+        
+        transform.position = pos; 
+        
+        if (Input.GetKey("a")) //links 
+        {
+            pos.x -= moveSpeed * Time.deltaTime;
+            animator.SetFloat("Speed",2);
+            animator.SetFloat("Vertical", 0);
+            animator.SetFloat("Horizontal", -1);
+        } else {
+            animator.SetFloat("Speed", 0);
+        }
+
+        transform.position = pos; 
     }
 } 

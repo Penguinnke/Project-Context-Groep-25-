@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-//Movement voor de eerste speler
+//Movement voor de eerste speler met de animator
 public class Player_1 : MonoBehaviour
 {
 
@@ -14,51 +14,44 @@ public class Player_1 : MonoBehaviour
     {
         Vector3 pos = transform.position;
 
-        if (Input.GetKey("w")) //boven
+        if (Input.GetKey("w") || Input.GetKey("a") || Input.GetKey("s") || Input.GetKey("d"))
         {
-            pos.y += moveSpeed * Time.deltaTime;
-            animator.SetFloat("Speed",2);
-            animator.SetFloat("Vertical", 1);
-            animator.SetFloat("Horizontal", 0);
+            animator.SetBool("Speed", true); //als het true is, ga over naar de movement blend tree
         } else {
-            animator.SetFloat("Speed", 0);
+            animator.SetBool("Speed", false); //als het false is, speel player_idle af
         }
 
-        transform.position = pos; 
+        if (Input.GetKey("w")) //boven
+        {
+            pos.y += moveSpeed * Time.deltaTime; //zorgt ervoor dat die van plek veranderd
+            animator.SetFloat("Vertical", 1); //speelt animatie af naar boven
+            animator.SetFloat("Horizontal", 0); //stop andere animaties
+        }
         
         if (Input.GetKey("s")) //onder
         {
             pos.y -= moveSpeed * Time.deltaTime;
-            animator.SetFloat("Speed",2);
+            //nimator.SetFloat("Speed",2);
             animator.SetFloat("Vertical", -1);
             animator.SetFloat("Horizontal", 0);
-        } else {
-            animator.SetFloat("Speed", 0);
         }
-
-        transform.position = pos; 
 
 
         if (Input.GetKey("d")) //rechts
         {
             pos.x += moveSpeed * Time.deltaTime;
-            animator.SetFloat("Speed",2);
+            //animator.SetFloat("Speed",2);
             animator.SetFloat("Vertical", 0);
             animator.SetFloat("Horizontal", 1);
-        } else {
-            animator.SetFloat("Speed", 0);
         }
         
-        transform.position = pos; 
         
         if (Input.GetKey("a")) //links 
         {
             pos.x -= moveSpeed * Time.deltaTime;
-            animator.SetFloat("Speed",2);
+            //animator.SetFloat("Speed",2); 
             animator.SetFloat("Vertical", 0);
             animator.SetFloat("Horizontal", -1);
-        } else {
-            animator.SetFloat("Speed", 0);
         }
 
         transform.position = pos; 

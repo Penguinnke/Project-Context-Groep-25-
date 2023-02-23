@@ -8,4 +8,22 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Gina's_Scenes/Menu.unity
+    guid: 3f63e688863d26042abef070d61f0167
+  - enabled: 1
+    path: Assets/Scenes/Gina's_Scenes/Hub.unity
+    guid: 6469ee81d7ec2124b9729d8738126531
+  - enabled: 1
+    path: Assets/Scenes/Gina's_Scenes/LeraarKamer.unity
+    guid: 0acc13833e2c55a49a16d4ea90b1010c
+  - enabled: 1
+    path: Assets/Scenes/Gina's_Scenes/Lokaal 1.71.unity
+    guid: 4872bddc972157443a54a7727be61c38
+  - enabled: 1
+    path: Assets/Scenes/Gina's_Scenes/Lokaal 2.03.unity
+    guid: edc4f070e7ff24a4daeb12fdd5022df2
+  - enabled: 1
+    path: Assets/Scenes/Gina's_Scenes/Lokaal 3.01.unity
+    guid: c5ff94c46ef5872439631a32d30b7a3c
   m_configObjects: {}

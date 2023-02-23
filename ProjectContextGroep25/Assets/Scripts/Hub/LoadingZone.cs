@@ -7,8 +7,11 @@ public class LoadingZone : MonoBehaviour
 {
     public string Lokaal;
 
-    private void OnTriggerEnter(Collider other)
+    public void OnTriggerEnter2D(Collider2D other)
     {
-        SceneManager.LoadScene(Lokaal);
+        if (other.tag == "Player")
+        {
+            SceneManager.LoadScene(Lokaal);
+        }
     }
 }

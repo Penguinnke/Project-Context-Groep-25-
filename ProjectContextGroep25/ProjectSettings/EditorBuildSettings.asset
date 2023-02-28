@@ -26,4 +26,19 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Gina's_Scenes/Lokaal 3.01.unity
     guid: c5ff94c46ef5872439631a32d30b7a3c
+  - enabled: 1
+    path: Assets/Scenes/Nynke_Scenes/NarratiefScenes/1_A_CutSceneRichard.unity
+    guid: 884c3cba4eb347c4b9e34c8a1f95a58a
+  - enabled: 1
+    path: Assets/Scenes/Nynke_Scenes/NarratiefScenes/2_A_CutsceneTim.unity
+    guid: 38093f2fe6f039f4f9ebb03822ac8e5f
+  - enabled: 1
+    path: Assets/Scenes/Nynke_Scenes/NarratiefScenes/3_A_CutsceneJoeri.unity
+    guid: cc92ddf518427ce43a2b7869a3189aad
+  - enabled: 1
+    path: Assets/Scenes/Nynke_Scenes/NarratiefScenes/4_A_CutsceneVincent.unity
+    guid: 7cd14c7bd0859e346a812c037ff8786b
+  - enabled: 1
+    path: Assets/Scenes/Nynke_Scenes/NarratiefScenes/5_A_CutSceneRichard.unity
+    guid: a17bab1ff98d5cf45a327b007beed3dc
   m_configObjects: {}

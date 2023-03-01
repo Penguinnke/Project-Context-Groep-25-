@@ -4,10 +4,23 @@ using UnityEngine;
 
 public class HubValues : MonoBehaviour
 {
+    //loading zones objects
     public GameObject DoorTim;
     public GameObject DoorVincent;
     public GameObject DoorJoeri;
     public GameObject DoorRichard;
+
+    //sprites
+    public GameObject TimDoor;
+
+    public GameObject VincentDoorOpen;
+    public GameObject VincentDoorClosed;
+
+    public GameObject JoeriDoorOpen;
+    public GameObject JoeriDoorClosed;
+
+    public GameObject RichardDoorOpen;
+    public GameObject RichardDoorClosed;
 
     void Start()
     { 
@@ -16,6 +29,18 @@ public class HubValues : MonoBehaviour
         DoorVincent.SetActive(false);
         DoorJoeri.SetActive(false);
         DoorRichard.SetActive(true);
+
+        //voor sprites
+        TimDoor.SetActive(true);
+
+        VincentDoorOpen.SetActive(true);
+        VincentDoorClosed.SetActive(false);
+
+        JoeriDoorOpen.SetActive(true);
+        JoeriDoorClosed.SetActive(false);
+
+        RichardDoorOpen.SetActive(false);
+        RichardDoorClosed.SetActive(true);
     }
 
     void Update()
@@ -24,18 +49,23 @@ public class HubValues : MonoBehaviour
         if (PlayerPrefs.GetInt("DoorTim") == 1)
         {
             DoorTim.SetActive(true);
+            TimDoor.SetActive(false);
             print("DoorTimHasClosed");
         }
 
         if (PlayerPrefs.GetInt("DoorVincent") == 1)
         {
             DoorVincent.SetActive(true);
+            VincentDoorOpen.SetActive(false);
+            VincentDoorClosed.SetActive(true);
             print("DoorVincentHasClosed");
         }
 
         if (PlayerPrefs.GetInt("DoorJoeri") == 1)
         {
             DoorJoeri.SetActive(true);
+            JoeriDoorOpen.SetActive(false);
+            JoeriDoorClosed.SetActive(true);
             print("DoorJoeriHasClosed");
         }
 
@@ -43,6 +73,8 @@ public class HubValues : MonoBehaviour
         if (PlayerPrefs.GetInt("DoorJoeri") == 1 && PlayerPrefs.GetInt("DoorVincent") == 1 && PlayerPrefs.GetInt("DoorTim") == 1)
         {
             DoorRichard.SetActive(false);
+            RichardDoorOpen.SetActive(true);
+            RichardDoorClosed.SetActive(false);
             print("DoorRichardHasOpend");
         }
     }

@@ -3,8 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
-public class Dialogue : MonoBehaviour
+public class Dialogue_2 : MonoBehaviour
 {
+    public GameObject TheButton;
+    public GameObject Scribbles;
     public TextMeshProUGUI textComponent;
     public string[] lines;
     public float textSpeed;
@@ -56,6 +58,8 @@ public class Dialogue : MonoBehaviour
             StartCoroutine(TypeLine());
         } else {
             gameObject.SetActive(false); //End of the dialogue wss veranderen naar een change scene? Hangt af van de tekst
+            TheButton.SetActive(true);
+            Scribbles.SetActive(false);
         }
     }
 }

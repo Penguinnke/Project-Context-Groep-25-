@@ -41,3 +41,12 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Hearths
+    uniqueID: 1063804353
+    locked: 0
+  - name: HappyMeter
+    uniqueID: 1470190841
+    locked: 0
+  - name: Sprites
+    uniqueID: 4079683719
+    locked: 0

@@ -2624,8 +2624,8 @@ GameObject:
   m_Component:
   - component: {fileID: 935746776}
   - component: {fileID: 935746775}
-  - component: {fileID: 935746777}
   - component: {fileID: 935746778}
+  - component: {fileID: 935746779}
   m_Layer: 0
   m_Name: Joeri kleine versie
   m_TagString: Untagged
@@ -2700,20 +2700,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &935746777
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 935746774}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2d6d2fc6566312a4d9f615bd02049619, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Cutscene: 3_A_CutsceneJoeri
-  Player1: {fileID: 1350565481}
 --- !u!61 &935746778
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2759,6 +2745,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.9736843, y: 1.882353}
   m_EdgeRadius: 0
+--- !u!114 &935746779
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 935746774}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e79bd006914ba164c96ba20bef8e1131, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Cutscene: 3_A_CutsceneJoeri
+  Player1: {fileID: 1350565481}
 --- !u!1 &946100053
 GameObject:
   m_ObjectHideFlags: 0

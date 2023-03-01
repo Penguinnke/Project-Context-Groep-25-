@@ -4830,8 +4830,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1125027849}
   - component: {fileID: 1125027848}
-  - component: {fileID: 1125027850}
   - component: {fileID: 1125027851}
+  - component: {fileID: 1125027852}
   m_Layer: 0
   m_Name: Vincent
   m_TagString: Untagged
@@ -4906,20 +4906,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1125027850
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1125027847}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2d6d2fc6566312a4d9f615bd02049619, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Cutscene: 4_A_CutsceneVincent
-  Player1: {fileID: 36005992}
 --- !u!61 &1125027851
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4965,6 +4951,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.90433884, y: 2}
   m_EdgeRadius: 0
+--- !u!114 &1125027852
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1125027847}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ac94baf64771874baeb6059ff0bd93a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Cutscene: 4_A_CutsceneVincent
+  Player1: {fileID: 36005992}
 --- !u!1 &1128000552
 GameObject:
   m_ObjectHideFlags: 0

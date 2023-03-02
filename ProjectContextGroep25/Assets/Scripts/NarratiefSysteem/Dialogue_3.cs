@@ -3,9 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
-public class Dialogue_2 : MonoBehaviour
+public class Dialogue_3 : MonoBehaviour
 {
     public GameObject TheButton;
+    public GameObject TheButton_2;
     public GameObject Scribbles;
     public GameObject Scribbles_BackGround;
     public TextMeshProUGUI textComponent;
@@ -58,10 +59,11 @@ public class Dialogue_2 : MonoBehaviour
             textComponent.text = string.Empty;
             StartCoroutine(TypeLine());
         } else {
-            gameObject.SetActive(false); //End of the dialogue wss veranderen naar een change scene? Hangt af van de tekst
-            TheButton.SetActive(true);
-            Scribbles_BackGround.SetActive(true);
-            Scribbles.SetActive(false);
+            //gameObject.SetActive(false); //End of the dialogue wss veranderen naar een change scene? Hangt af van de tekst
+            //TheButton.SetActive(true);
+            //TheButton_2.SetActive(true);
+            //Scribbles_BackGround.SetActive(true);
+            //Scribbles.SetActive(false);
         }
     }
 }

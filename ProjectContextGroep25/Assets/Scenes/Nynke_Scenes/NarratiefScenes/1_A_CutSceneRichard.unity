@@ -159,8 +159,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -21.1823, y: 0.0011063}
-  m_SizeDelta: {x: 917.6455, y: 280.77}
+  m_AnchoredPosition: {x: -0.7799, y: 0.0008}
+  m_SizeDelta: {x: 902.4358, y: 243.8738}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &209673897
 MonoBehaviour:
@@ -184,15 +184,15 @@ MonoBehaviour:
       m_Calls: []
   m_text: Test
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: ad67c21ad6e4c4f49a6f3ae1fa7dd4a4, type: 2}
+  m_sharedMaterial: {fileID: 5712298465081391540, guid: ad67c21ad6e4c4f49a6f3ae1fa7dd4a4, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -209,8 +209,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 50
-  m_fontSizeBase: 50
+  m_fontSize: 36.14
+  m_fontSizeBase: 36.14
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -219,9 +219,9 @@ MonoBehaviour:
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
-  m_characterSpacing: 0
-  m_wordSpacing: 0
-  m_lineSpacing: 0
+  m_characterSpacing: -18
+  m_wordSpacing: 5.3
+  m_lineSpacing: 60
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
@@ -276,18 +276,22 @@ MonoBehaviour:
   Scribbles_BackGround: {fileID: 1949252642}
   textComponent: {fileID: 209673897}
   lines:
-  - Hallo?
-  - 'Ah, ik ben blij om even met iemand over "iets" te praten... '
-  - Oh, jullie zijn natuurlijk nieuwe leerlingen...
-  - Nou, welkom op het HKU! Leuk om je erbij te hebben!
+  - 'Hallo? '
+  - 'Ah, ik ben blij om even met iemand te praten... '
+  - 'Oh ja, jullie zijn natuurlijk nieuwe leerlingen... '
+  - 'Nou, welkom op het HKU! Leuk om je erbij te hebben! '
   - Nou... Nu even een vraagje...
-  - Maar, ik heb geen idee wat we hier aan het doen zijn.
-  - 'Ik ben denk ik de kern van de studie bezigheden vergeten. '
-  - Kan jij misschien met leerkrachten praten en wat meer informatie over de opleiding
-    vragen?
-  - Dat kan misschien mij helpen om mijn herinneringen terug te krijgen...
-  - En ook voor jullie een goede manier om te leren over waar de opleiding over gaat!
-  - 'Ga naar de GI space en kijk eens rond, daar zal je zeker de leerkrachten vinden! '
+  - 'Dit gaat misschien wat raar klinken... '
+  - 'Maar, ik heb geen idee wat we hier aan het doen zijn. '
+  - 'Ik ben denk ik de kern van de studie vergeten. '
+  - 'Kan jij misschien met leerkrachten praten en wat meer informatie over de opleiding
+    vragen? '
+  - 'Dat kan mij misschien helpen om mijn herinneringen terug te krijgen... '
+  - 'En ook voor jullie een goede manier om te leren over waar de opleiding over
+    gaat! '
+  - 'Ga naar de GI Space en kijk eens rond, daar zal je zeker de leerkrachten vinden
+    die jou op weg kunnen helpen! '
+  - Succes!
   textSpeed: 0.1
 --- !u!1 &390425142
 GameObject:
@@ -343,14 +347,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.6981132, g: 0.26673195, b: 0.26673195, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: a6660ced638e4434ba9543346e0e8fc0, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -867,8 +871,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: GA NAAR DE GI-SPACE
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 959bb509f26b8b347b9c36188e17b476, type: 2}
+  m_sharedMaterial: {fileID: 1291295117288887365, guid: 959bb509f26b8b347b9c36188e17b476, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -892,8 +896,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 34.83
-  m_fontSizeBase: 34.83
+  m_fontSize: 38.34
+  m_fontSizeBase: 38.34
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1291,8 +1295,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 12.8428955, y: 0}
-  m_SizeDelta: {x: 934.3142, y: 280.7716}
+  m_AnchoredPosition: {x: -2.294, y: -0.7085}
+  m_SizeDelta: {x: 904.0362, y: 242.5133}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &1145824212
 Animator:
@@ -1574,8 +1578,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -480, y: -399.61444}
-  m_SizeDelta: {x: 960.01, y: 280.7716}
+  m_AnchoredPosition: {x: -492.7974, y: -399.61444}
+  m_SizeDelta: {x: 934.4152, y: 280.7716}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1280007654
 MonoBehaviour:
@@ -1590,14 +1594,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.4811321, g: 0.4811321, b: 0.4811321, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: a6660ced638e4434ba9543346e0e8fc0, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2223,8 +2227,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 12.843018, y: 0}
-  m_SizeDelta: {x: 934.3142, y: 280.7716}
+  m_AnchoredPosition: {x: -2.294, y: -0.7085}
+  m_SizeDelta: {x: 904.0362, y: 242.5133}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &1949252644
 Animator:

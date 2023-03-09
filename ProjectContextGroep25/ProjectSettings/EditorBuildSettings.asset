@@ -111,6 +111,39 @@ EditorBuildSettings:
     path: Assets/Scenes/Nynke_Scenes/NarratiefScenes/CutScene4/4_E_CutsceneVincent.unity
     guid: d27cb2a959a826843a25ef2acee72c2c
   - enabled: 1
+    path: Assets/Scenes/Nynke_Scenes/NarratiefScenes/CutScene4/4_F_CutsceneVincent.unity
+    guid: 00cfbe7b1451e59458617ddedc80b72a
+  - enabled: 1
+    path: Assets/Scenes/Nynke_Scenes/NarratiefScenes/CutScene4/4_G_CutsceneVincent.unity
+    guid: d043341607111f842b4aea46184ae6b6
+  - enabled: 1
+    path: Assets/Scenes/Nynke_Scenes/NarratiefScenes/CutScene4/4_H_CutsceneVincent.unity
+    guid: c2e3f189246c22a4ca547faae907ad20
+  - enabled: 1
+    path: Assets/Scenes/Nynke_Scenes/NarratiefScenes/CutScene4/4_I_CutsceneVincent.unity
+    guid: 93846bddc46b70841a35fcf5f38acb5d
+  - enabled: 1
+    path: Assets/Scenes/Nynke_Scenes/NarratiefScenes/CutScene4/4_J_CutsceneVincent.unity
+    guid: 8500bf0651e76354fa85befe99e91d72
+  - enabled: 1
+    path: Assets/Scenes/Nynke_Scenes/NarratiefScenes/CutScene4/4_K_CutsceneVincent.unity
+    guid: 3b79ebe14b8552e41a49a8020feec503
+  - enabled: 1
+    path: Assets/Scenes/Nynke_Scenes/NarratiefScenes/CutScene4/4_L_CutsceneVincent.unity
+    guid: f13469d0594990a4da9a034d48abd182
+  - enabled: 1
+    path: Assets/Scenes/Nynke_Scenes/NarratiefScenes/CutScene4/4_M_CutsceneVincent.unity
+    guid: e9e20de99749bbf429dde60537c64e1a
+  - enabled: 1
+    path: Assets/Scenes/Nynke_Scenes/NarratiefScenes/CutScene4/4_N_CutsceneVincent.unity
+    guid: 1fb83b4ff9691e240a55b75c1218c62c
+  - enabled: 1
     path: Assets/Scenes/Nynke_Scenes/NarratiefScenes/CutScene5/5_A_CutSceneRichard.unity
     guid: a17bab1ff98d5cf45a327b007beed3dc
+  - enabled: 1
+    path: Assets/Scenes/Nynke_Scenes/NarratiefScenes/CutScene5/5_B_CutSceneRichard.unity
+    guid: 7f622664d093b534d9d276627e3d99a3
+  - enabled: 1
+    path: Assets/Scenes/Nynke_Scenes/Endscreen/Eindscherm.unity
+    guid: 516ba119692c641448e86090527ecbc3
   m_configObjects: {}

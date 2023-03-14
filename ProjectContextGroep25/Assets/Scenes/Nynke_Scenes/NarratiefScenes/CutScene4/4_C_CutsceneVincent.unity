@@ -2091,7 +2091,7 @@ MonoBehaviour:
   Scribbles_BackGround: {fileID: 0}
   textComponent: {fileID: 1359627078}
   lines:
-  - Hebben tekeningen schetsen nodig?
+  - Wat is het belangrijkste om als eerste te doen als je een project maakt?
   textSpeed: 0.1
 --- !u!114 &1359627078
 MonoBehaviour:

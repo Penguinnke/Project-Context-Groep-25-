@@ -417,7 +417,7 @@ MonoBehaviour:
     je dit op papier zet. '
   - 'Hierdoor voorkom je dat je later stukken uitgewerkte tekeningen opnieuw moet
     tekenen als je daar fouten in hebt gemaakt. '
-  textSpeed: 0.1
+  textSpeed: 0.05
 --- !u!114 &262218908
 MonoBehaviour:
   m_ObjectHideFlags: 0

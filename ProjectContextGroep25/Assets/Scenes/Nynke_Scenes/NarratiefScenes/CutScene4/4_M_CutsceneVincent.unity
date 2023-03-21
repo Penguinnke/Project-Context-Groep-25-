@@ -770,7 +770,7 @@ MonoBehaviour:
   - Anders weten de game designers en game artist niet waar de game developers over
     praten.
   - Nou, als je nog met andere moet praten is de GI space de beste plek ervoor!
-  textSpeed: 0.1
+  textSpeed: 0.05
 --- !u!114 &557649292
 MonoBehaviour:
   m_ObjectHideFlags: 0

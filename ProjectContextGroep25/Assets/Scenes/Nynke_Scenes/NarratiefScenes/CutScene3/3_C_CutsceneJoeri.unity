@@ -181,7 +181,7 @@ MonoBehaviour:
   textComponent: {fileID: 21094010}
   lines:
   - Hebben tekeningen schetsen nodig?
-  textSpeed: 0.1
+  textSpeed: 0.05
 --- !u!114 &21094010
 MonoBehaviour:
   m_ObjectHideFlags: 0

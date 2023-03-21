@@ -1284,7 +1284,7 @@ MonoBehaviour:
   textComponent: {fileID: 503941740}
   lines:
   - 'Wie moet er in jaar 1 leren programmeren? '
-  textSpeed: 0.1
+  textSpeed: 0.05
 --- !u!114 &503941740
 MonoBehaviour:
   m_ObjectHideFlags: 0

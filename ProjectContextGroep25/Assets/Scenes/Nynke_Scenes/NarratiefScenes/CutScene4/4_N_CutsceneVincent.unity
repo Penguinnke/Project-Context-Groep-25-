@@ -759,7 +759,7 @@ MonoBehaviour:
   - Door deze basiskennis weten ook de game designers en game artists wat de game
     developers bedoelen wanneer ze praten over programmeren.
   - Nou, als je nog met andere moet praten is de GI space de beste plek ervoor!
-  textSpeed: 0.1
+  textSpeed: 0.05
 --- !u!114 &852036133
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1560,7 +1560,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Volgende vraag
+  m_text: Ga terug naar de GI
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ad67c21ad6e4c4f49a6f3ae1fa7dd4a4, type: 2}
   m_sharedMaterial: {fileID: 5712298465081391540, guid: ad67c21ad6e4c4f49a6f3ae1fa7dd4a4, type: 2}

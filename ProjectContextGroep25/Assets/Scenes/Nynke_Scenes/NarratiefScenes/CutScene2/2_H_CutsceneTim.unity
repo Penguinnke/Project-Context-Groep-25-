@@ -908,7 +908,7 @@ MonoBehaviour:
   - Goed geprobeerd!
   - Als je met andere leekrachten wilt praten kan je weer terug naar de GI space
     gaan.
-  textSpeed: 0.1
+  textSpeed: 0.05
 --- !u!114 &696618855
 MonoBehaviour:
   m_ObjectHideFlags: 0

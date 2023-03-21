@@ -1748,7 +1748,7 @@ MonoBehaviour:
   textComponent: {fileID: 1017108052}
   lines:
   - 'Kan je met game design de werkelijkheid simuleren? '
-  textSpeed: 0.1
+  textSpeed: 0.05
 --- !u!1 &1044346624
 GameObject:
   m_ObjectHideFlags: 0

@@ -1558,7 +1558,7 @@ MonoBehaviour:
   textComponent: {fileID: 1096834940}
   lines:
   - Tuurlijk, zou ik eerst wat vragen mogen stellen?
-  textSpeed: 0.1
+  textSpeed: 0.05
 --- !u!114 &1096834940
 MonoBehaviour:
   m_ObjectHideFlags: 0

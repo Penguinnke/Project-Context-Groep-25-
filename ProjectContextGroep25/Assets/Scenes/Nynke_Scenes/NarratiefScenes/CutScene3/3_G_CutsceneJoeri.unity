@@ -541,7 +541,7 @@ MonoBehaviour:
   - Goed gedaan!
   - Als je nog met andere leerkrachten een gesprek wilt voeren kan je ze vinden in
     de GI space.
-  textSpeed: 0.1
+  textSpeed: 0.05
 --- !u!114 &559277984
 MonoBehaviour:
   m_ObjectHideFlags: 0

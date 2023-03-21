@@ -1713,7 +1713,7 @@ MonoBehaviour:
   - 'Al deze informatie kun je ook terug vinden op de site! '
   - Willen jullie nou nog meer weten, er lopen genoeg mensen rond op de open dag,...
   - vraag het vooral aan hen. Ze helpen je graag op weg.
-  textSpeed: 0.1
+  textSpeed: 0.05
 --- !u!114 &1204847293
 MonoBehaviour:
   m_ObjectHideFlags: 0

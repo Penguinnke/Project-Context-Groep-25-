@@ -671,7 +671,7 @@ MonoBehaviour:
   textComponent: {fileID: 444582228}
   lines:
   - "Wat is een manier hoe kunstenaars 'vals\u2019spelen?"
-  textSpeed: 0.1
+  textSpeed: 0.05
 --- !u!114 &444582228
 MonoBehaviour:
   m_ObjectHideFlags: 0

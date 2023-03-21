@@ -892,7 +892,7 @@ MonoBehaviour:
   textComponent: {fileID: 488393562}
   lines:
   - Wat is de taak van de game designer?
-  textSpeed: 0.1
+  textSpeed: 0.05
 --- !u!114 &488393562
 MonoBehaviour:
   m_ObjectHideFlags: 0

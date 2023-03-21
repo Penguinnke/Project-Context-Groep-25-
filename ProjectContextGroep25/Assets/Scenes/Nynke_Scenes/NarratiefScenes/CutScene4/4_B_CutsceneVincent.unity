@@ -855,7 +855,7 @@ MonoBehaviour:
   textComponent: {fileID: 752656913}
   lines:
   - 'Tuurlijk, maar eerst een kleine quiz! '
-  textSpeed: 0.1
+  textSpeed: 0.05
 --- !u!114 &752656913
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -252,7 +252,7 @@ MonoBehaviour:
   - Nee maar nu even serieus, Ik geef vakken zoals ECTTP, en Bpw. Ik ben onder andere
     van de game development.
   - 'Welkom op de HKU. '
-  textSpeed: 0.1
+  textSpeed: 0.05
 --- !u!114 &60593919
 MonoBehaviour:
   m_ObjectHideFlags: 0

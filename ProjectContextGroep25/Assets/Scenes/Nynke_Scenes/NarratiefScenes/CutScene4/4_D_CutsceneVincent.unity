@@ -601,7 +601,7 @@ MonoBehaviour:
   - 'Je code mag rommelig zijn als je eerst begint aan je project,  zolang je het
     later aanpast.  '
   - Het belangrijkste is een goede back-up maken.
-  textSpeed: 0.1
+  textSpeed: 0.05
 --- !u!114 &358410419
 MonoBehaviour:
   m_ObjectHideFlags: 0

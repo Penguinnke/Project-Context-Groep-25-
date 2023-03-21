@@ -2092,7 +2092,7 @@ MonoBehaviour:
   textComponent: {fileID: 1359627078}
   lines:
   - Wat is het belangrijkste om als eerste te doen als je een project maakt?
-  textSpeed: 0.1
+  textSpeed: 0.05
 --- !u!114 &1359627078
 MonoBehaviour:
   m_ObjectHideFlags: 0

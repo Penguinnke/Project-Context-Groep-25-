@@ -1614,7 +1614,7 @@ MonoBehaviour:
   - 'Nee, dit klopt helaas niet... '
   - Game Design is regelmatig geinspireerd door de werkelijkheid, maar dan wel geabstraheerd
     tot een compactere ervaring.
-  textSpeed: 0.1
+  textSpeed: 0.05
 --- !u!114 &1306858460
 MonoBehaviour:
   m_ObjectHideFlags: 0

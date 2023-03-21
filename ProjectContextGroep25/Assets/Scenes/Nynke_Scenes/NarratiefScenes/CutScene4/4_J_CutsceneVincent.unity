@@ -1943,7 +1943,7 @@ MonoBehaviour:
   - Door deze basiskennis weten ook de game designers en game artists wat de game
     developers bedoelen wanneer ze praten over programmeren.
   - Nou, als je nog met andere moet praten is de GI space de beste plek ervoor!
-  textSpeed: 0.1
+  textSpeed: 0.05
 --- !u!114 &1167000423
 MonoBehaviour:
   m_ObjectHideFlags: 0

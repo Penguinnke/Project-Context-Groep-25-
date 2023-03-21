@@ -764,7 +764,7 @@ MonoBehaviour:
   - 'Welkom op de HKU! '
   - 'Ik zal mij even voorstellen: ik ben Tim Bosje, ik geef onder andere het vak
     Game Design.'
-  textSpeed: 0.1
+  textSpeed: 0.05
 --- !u!114 &580579648
 MonoBehaviour:
   m_ObjectHideFlags: 0

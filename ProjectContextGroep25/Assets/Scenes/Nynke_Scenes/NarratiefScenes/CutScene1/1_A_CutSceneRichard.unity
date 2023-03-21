@@ -292,7 +292,7 @@ MonoBehaviour:
   - 'Ga naar de GI Space en kijk eens rond, daar zal je zeker de leerkrachten vinden
     die jou op weg kunnen helpen! '
   - Succes!
-  textSpeed: 0.1
+  textSpeed: 0.05
 --- !u!1 &390425142
 GameObject:
   m_ObjectHideFlags: 0

@@ -682,7 +682,7 @@ MonoBehaviour:
   - 'Backups maken is erg belangrijk als je een project hebt. '
   - 'Maak altijd backups in het geval dat je file corrupt of je het kwijtraakt.  '
   - "\u201CIk kan mijn project niet vinden\u201D is geen goed excuus! "
-  textSpeed: 0.1
+  textSpeed: 0.05
 --- !u!114 &352285288
 MonoBehaviour:
   m_ObjectHideFlags: 0

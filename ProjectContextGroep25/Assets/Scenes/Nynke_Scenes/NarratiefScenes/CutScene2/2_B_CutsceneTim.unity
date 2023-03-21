@@ -1703,7 +1703,7 @@ MonoBehaviour:
   lines:
   - 'Tuurlijk kan ik dat, maar eerst zou ik jullie wat vragen willen stellen om te
     testen wat jullie al weten... '
-  textSpeed: 0.1
+  textSpeed: 0.05
 --- !u!114 &1536652871
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -264,7 +264,7 @@ MonoBehaviour:
   textComponent: {fileID: 211439214}
   lines:
   - "\tWelkom terug! Hebben jullie nog wat geleerd over de opleiding?"
-  textSpeed: 0.1
+  textSpeed: 0.05
 --- !u!114 &211439214
 MonoBehaviour:
   m_ObjectHideFlags: 0

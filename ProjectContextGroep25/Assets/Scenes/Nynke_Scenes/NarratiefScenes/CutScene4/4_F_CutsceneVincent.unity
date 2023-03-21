@@ -1800,7 +1800,7 @@ MonoBehaviour:
     de  artists nog bezig met het maken van de art en het is onhandig dat je op ze
     gaat wachten terwijl je in die tijd ook codeerwerk had kunnen doen!  '
   - Het belangrijkste is een goede back-up maken.
-  textSpeed: 0.1
+  textSpeed: 0.05
 --- !u!114 &1317061878
 MonoBehaviour:
   m_ObjectHideFlags: 0

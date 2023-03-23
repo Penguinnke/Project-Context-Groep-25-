@@ -13,6 +13,12 @@ public class StartMenu : MonoBehaviour
     public void StartGame()
     {
         SceneManager.LoadScene(MainGame);
+
+        //reset alle prefs to 0 zodat de deuren weer open gaan en richards deur weer dicht (hubvalues script)
+        PlayerPrefs.SetInt("DoorTim", 0);
+        PlayerPrefs.SetInt("DoorVincent", 0);
+        PlayerPrefs.SetInt("DoorJoeri", 0);
+        print("Game has been reset");
     }
 
     public void OpenControls()
